@@ -1,0 +1,247 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+        <title>Eunice's</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- Background Gradient -->
+        <div class="background-gradient"></div>
+
+        <header>
+            <div class="logo">
+                <img src="css/images/formal1.png" alt="Logo" class="logo-image">
+                Eunice Ordillano
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" style="background: url('css/images/dice.png') no-repeat center center; background-size: cover; height: 100vh;">
+                <div class="social-icons-container">
+                    <a href="https://www.linkedin.com/in/eunice-ordillano-4783582aa/" target="_blank" aria-label="LinkedIn"><img src="css/images/linkedin.png" alt="LinkedIn" ></a>
+                    <a href="https://web.facebook.com/unisimism" target="_blank"><img src="css/images/fb.png" alt="Facebook"></a>
+                    <a href="https://github.com/yunisord" target="_blank"><img src="css/images/github.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/unisimism" target="_blank"><img src="css/images/instagram.png" alt="Instagram"></a>
+                </div>
+                <h1 class="hero-title">Hello, I'm Eunice!</h1>
+                    <p class="hero-description">Fresh graduate, passionate about technology and creating impactful applications.</p> 
+                    <a href="#projects" class="cta-button">View My Work</a>
+                    <a href="css/images/Resume-Eunice Ordillano.pdf" download class="cta-button">Download Resume</a>
+
+            
+
+            <!-- About Section -->
+            <section id="about" class="content-section">
+                <h2 class="about-title">About Me</h2>
+                <p>
+                    I am a software developer specializing in mobile and web development. I enjoy building user-friendly applications and exploring innovative solutions.
+                </p>
+            </section>
+
+            <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="project-grid">
+            <!-- AR Tourism App Project -->
+            <a href="https://yunisord.github.io/index.html" class="project-link">
+                <div class="project">
+                    <img src="css/images/1stwebsite.png" alt="Personal Website" class="project-image">
+                    <h3>Personal Website</h3>
+                    <p>A website that showcases personal information, hobbies, and interests.</p>
+                    <h5>See more...</h5>
+                </div>
+            </a>
+            
+            <!-- QR Scanner App Project -->
+            <a href="https://yunisord.github.io/CHOKKBI/" class="project-link">
+                <div class="project">
+                    <img src="css/images/2ndwebsite.png" alt="CHOKKBI" class="project-image">
+                    <h3>Chokkbi</h3>
+                    <p>A website featuring a variety of chocolate products. </p>
+                    <h5>See more...</h5>
+                </div>
+            </a>
+            <a href="https://iiiaaaannn.github.io/eBaby/" class="project-link">
+                <div class="project">
+                    <img src="css/images/3rdwebsite.png" alt="E-Baby" class="project-image">
+                    <h3>E-Baby Website</h3>
+                    <p>A modern web application for online shopping, specializing in products for dogs and cats.</p>
+                    <h5>See more...</h5>
+                </div>
+            </a>
+        </div>
+        <!-- Android Application Section -->
+        <section id="android-applications" class="content-section">
+            <!-- Container for Android Applications -->
+            <div class="android-apps-container">
+                <!-- Historiaya Project -->
+                <a href="#" class="project-link" id="open-historiaya">
+                    <div class="project">
+                        <img src="css/images/historiaya.jpg" alt="Historiaya" class="project-image">
+                        <h3>Historiaya</h3>
+                        <p>Capstone Project</p>
+                        <h5>See more...</h5>
+                    </div>
+                </a>
+        
+                <!-- QR Scanner Project -->
+                <a href="#" class="project-link" id="open-qr-scanner">
+                    <div class="project">
+                        <img src="css/images/YG.jpg" alt="YG" class="project-image">
+                        <h3>QR Scanner</h3>
+                        <p>QR Scanner for YG Activity</p>
+                        <h5>See more...</h5>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Modal for Historiaya Project -->
+        <div id="historiaya-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close-historiaya">&times;</span>
+                <video controls>
+                    <source src="css/images/Historiaya.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>An augmented reality application designed to showcase the heritage houses of Sariaya, featuring a reservation system, chat system, and a shop to promote local products from Sariaya, Quezon.</p>
+            </div>
+        </div>
+        
+        <!-- Modal for QR Scanner Project -->
+        <div id="qr-scanner-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close-qr-scanner">&times;</span>
+                <video controls>
+                    <source src="css/images/YG.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <h2>Contact</h2>
+                <p>If you're interested in working with me or learning more, feel free to contact me or download my resume below:</p>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    <button type="submit" class="submit-button">Send</button>
+                </form>
+            </section>
+                    
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Eunice Ordillano. All rights reserved.</p>
+        </footer>
+
+        <!-- JavaScript -->
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+    // Get modal elements
+    var historiayaModal = document.getElementById("historiaya-modal");
+    var qrScannerModal = document.getElementById("qr-scanner-modal");
+
+    // Get the buttons that open the modal
+    var openHistoriaya = document.getElementById("open-historiaya");
+    var openQrScanner = document.getElementById("open-qr-scanner");
+
+    // Get the <span> elements that close the modal
+    var closeHistoriaya = document.getElementById("close-historiaya");
+    var closeQrScanner = document.getElementById("close-qr-scanner");
+
+    // When the user clicks on the Historiaya project, open the modal
+    openHistoriaya.onclick = function() {
+        historiayaModal.style.display = "block";
+    }
+
+    // When the user clicks on the QR Scanner project, open the modal
+    openQrScanner.onclick = function() {
+        qrScannerModal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    closeHistoriaya.onclick = function() {
+        historiayaModal.style.display = "none";
+    }
+
+    closeQrScanner.onclick = function() {
+        qrScannerModal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === historiayaModal) {
+            historiayaModal.style.display = "none";
+        } else if (event.target === qrScannerModal) {
+            qrScannerModal.style.display = "none";
+        }
+    }
+    // Initialize EmailJS service
+ // Initialize EmailJS service with your user ID
+ // Initialize EmailJS service
+// Initialize EmailJS service
+(function () {
+    emailjs.init("Your_User_ID"); // Replace with your EmailJS User ID
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent the default form submission behavior
+
+    // Get form values
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    // Check for empty fields
+    if (!name || !email || !message) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    // Log the collected data for debugging
+    console.log("Form submitted with:", { name, email, message });
+
+    // Set template parameters
+    var templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+    };
+
+    // Send email using EmailJS
+    emailjs.send("service_ahtva4b", "template_uagbifo")
+        .then(function(response) {
+            console.log("Email successfully sent:", response.status, response.text);
+            alert("Email sent successfully!"); // Success message
+        })
+        .catch(function(error) {
+            console.error("Failed to send email:", error);
+            alert("Failed to send email. Please try again later."); // Error message
+        });
+});
+
+        </script>
+        
+    </body>
+    </html>
