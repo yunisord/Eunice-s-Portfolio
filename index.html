@@ -1,247 +1,1601 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eunice Ordillano | QA Analyst & Developer</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="Portfolio/css/images/favicon.ico"
+    >
+
+    <meta
+        name="description"
+        content="Eunice Ordillano's professional portfolio showcasing software quality assurance, web development, mobile applications, and selected projects."
+    >
+
+    <!-- =========================================================
+         FONTS
+    ========================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-        <title>Eunice's</title>
-        <link rel="stylesheet" href="Portfolio/css/styles.css">
-    </head>
-    <body>
-        <!-- Background Gradient -->
-        <div class="background-gradient"></div>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
-        <header>
-            <div class="logo">
-                <img src="Portfolio/css/images/formal1.png" alt="Logo" class="logo-image">
-                Eunice Ordillano
-            </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <!-- =========================================================
+         FONT AWESOME
+    ========================================================== -->
 
-        <main>
-            <!-- Hero Section -->
-            <section id="hero" style="background: url('Portfolio/css/images/dice.png') no-repeat center center; background-size: cover; height: 100vh;">
-                <div class="social-icons-container">
-                    <a href="https://www.linkedin.com/in/eunice-ordillano-4783582aa/" target="_blank" aria-label="LinkedIn"><img src="Portfolio/css/images/linkedin.png" alt="LinkedIn" ></a>
-                    <a href="https://web.facebook.com/unisimism" target="_blank"><img src="Portfolio/css/images/fb.png" alt="Facebook"></a>
-                    <a href="https://github.com/yunisord" target="_blank"><img src="Portfolio/css/images/github.png" alt="GitHub"></a>
-                    <a href="https://www.instagram.com/unisimism" target="_blank"><img src="Portfolio/css/images/instagram.png" alt="Instagram"></a>
-                </div>
-                <h1 class="hero-title">Hello, I'm Eunice!</h1>
-                    <p class="hero-description">Fresh graduate, passionate about technology and creating impactful applications.</p> 
-                    <a href="#projects" class="cta-button">View My Work</a>
-                    <a href="Portfolio/css/images/Resume-Eunice Ordillano.pdf" download class="cta-button">Download Resume</a>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    >
 
-            
+    <!-- =========================================================
+         STYLES
+    ========================================================== -->
 
-            <!-- About Section -->
-            <section id="about" class="content-section">
-                <h2 class="about-title">About Me</h2>
-                <p>
-                    I am a software developer specializing in mobile and web development. I enjoy building user-friendly applications and exploring innovative solutions.
-                </p>
-            </section>
+    <link rel="stylesheet" href="Portfolio/css/styles.css">
 
-            <!-- Projects Section -->
-    <section id="projects" class="content-section">
-        <h2 class="projects-title">My Projects</h2>
-        <div class="project-grid">
-            <!-- AR Tourism App Project -->
-            <a href="https://yunisord.github.io/index.html" class="project-link">
-                <div class="project">
-                    <img src="Portfolio/css/images/1stwebsite.png" alt="Personal Website" class="project-image">
-                    <h3>Personal Website</h3>
-                    <p>A website that showcases personal information, hobbies, and interests.</p>
-                    <h5>See more...</h5>
-                </div>
-            </a>
-            
-            <!-- QR Scanner App Project -->
-            <a href="https://yunisord.github.io/CHOKKBI/" class="project-link">
-                <div class="project">
-                    <img src="Portfolio/css/images/2ndwebsite.png" alt="CHOKKBI" class="project-image">
-                    <h3>Chokkbi</h3>
-                    <p>A website featuring a variety of chocolate products. </p>
-                    <h5>See more...</h5>
-                </div>
-            </a>
-            <a href="https://iiiaaaannn.github.io/eBaby/" class="project-link">
-                <div class="project">
-                    <img src="Portfolio/css/images/3rdwebsite.png" alt="E-Baby" class="project-image">
-                    <h3>E-Baby Website</h3>
-                    <p>A modern web application for online shopping, specializing in products for dogs and cats.</p>
-                    <h5>See more...</h5>
-                </div>
-            </a>
-        </div>
-        <!-- Android Application Section -->
-        <section id="android-applications" class="content-section">
-            <!-- Container for Android Applications -->
-            <div class="android-apps-container">
-                <!-- Historiaya Project -->
-                <a href="#" class="project-link" id="open-historiaya">
-                    <div class="project">
-                        <img src="Portfolio/css/images/historiaya.jpg" alt="Historiaya" class="project-image">
-                        <h3>Historiaya</h3>
-                        <p>Capstone Project</p>
-                        <h5>See more...</h5>
+    <!-- =========================================================
+         EMAILJS
+    ========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- =========================================================
+         BACKGROUND
+    ========================================================== -->
+
+    <div class="page-noise" aria-hidden="true"></div>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+
+    <header class="site-header" id="site-header">
+
+        <a
+            class="brand"
+            href="#hero"
+            aria-label="Eunice Ordillano home"
+        >
+            <span class="brand-mark">EO</span>
+            <span class="brand-name">Eunice Ordillano</span>
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <nav
+            class="main-nav"
+            aria-label="Primary navigation"
+        >
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section
+            id="hero"
+            class="hero section"
+        >
+
+            <div class="hero-inner">
+
+                <div class="hero-copy reveal">
+
+                    <p class="eyebrow">
+                        SOFTWARE QUALITY • WEB • MOBILE
+                    </p>
+
+
+                    <h1>
+                        I build with
+                        <span>precision.</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+                        I'm Eunice — a QA Analyst and technology enthusiast
+                        focused on creating reliable, intuitive, and polished
+                        digital experiences.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#projects"
+                            class="button button-primary"
+                        >
+                            Explore my work
+                            <span>↗</span>
+                        </a>
+
+
+                        <a
+                            href="Portfolio/css/images/Resume-Eunice Ordillano (8).pdf"
+                            download
+                            class="button button-ghost"
+                        >
+                            Download résumé
+                        </a>
+
                     </div>
-                </a>
-        
-                <!-- QR Scanner Project -->
-                <a href="#" class="project-link" id="open-qr-scanner">
-                    <div class="project">
-                        <img src="Portfolio/css/images/YG.jpg" alt="YG" class="project-image">
-                        <h3>QR Scanner</h3>
-                        <p>QR Scanner for YG Activity</p>
-                        <h5>See more...</h5>
+
+
+                    <div class="hero-meta">
+
+                        <div>
+                            <strong>QA</strong>
+                            <span>Testing &amp; analysis</span>
+                        </div>
+
+                        <div>
+                            <strong>WEB</strong>
+                            <span>Modern interfaces</span>
+                        </div>
+
+                        <div>
+                            <strong>MOBILE</strong>
+                            <span>Application projects</span>
+                        </div>
+
                     </div>
-                </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     HERO VISUAL — ABSTRACT TERMINAL
+                ================================================== -->
+
+                <div class="hero-visual reveal">
+
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="hero-terminal-card">
+
+                        <div class="terminal-topbar">
+
+                            <div
+                                class="terminal-dots"
+                                aria-hidden="true"
+                            >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                        </div>
+
+                        <div class="terminal-body"></div>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
+            <!-- =================================================
+                 SOCIAL LINKS
+            ================================================== -->
+
+            <div
+                class="social-rail"
+                aria-label="Social links"
+            >
+
+                <a
+                    href="https://www.linkedin.com/in/eunice-ordillano-4783582aa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    title="LinkedIn"
+                >
+                    <i
+                        class="fa-brands fa-linkedin-in"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+
+                <a
+                    href="https://github.com/yunisord"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    title="GitHub"
+                >
+                    <i
+                        class="fa-brands fa-github"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+
+                <a
+                    href="https://web.facebook.com/unisimism"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                    title="Facebook"
+                >
+                    <i
+                        class="fa-brands fa-facebook-f"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+
+                <a
+                    href="https://www.instagram.com/unisimism"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    title="Instagram"
+                >
+                    <i
+                        class="fa-brands fa-instagram"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 SCROLL CUE
+            ================================================== -->
+
+            <a
+                href="#about"
+                class="scroll-cue"
+                aria-label="Scroll to About section"
+            >
+                <span>SCROLL</span>
+                <i></i>
+            </a>
+
         </section>
-        
-        <!-- Modal for Historiaya Project -->
-        <div id="historiaya-modal" class="modal">
-            <div class="modal-content">
-                <span class="close" id="close-historiaya">&times;</span>
-                <video controls>
-                    <source src="Portfolio/css/images/Historiaya.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>An augmented reality application designed to showcase the heritage houses of Sariaya, featuring a reservation system, chat system, and a shop to promote local products from Sariaya, Quezon.</p>
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section
+            id="about"
+            class="section content-section"
+        >
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    01 / ABOUT
+                </p>
+
+
+                <h2>
+                    Quality is more than finding bugs.
+                </h2>
+
             </div>
-        </div>
-        
-        <!-- Modal for QR Scanner Project -->
-        <div id="qr-scanner-modal" class="modal">
-            <div class="modal-content">
-                <span class="close" id="close-qr-scanner">&times;</span>
-                <video controls>
-                    <source src="Portfolio/css/images/YG.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+
+
+            <div class="about-grid">
+
+                <div class="about-intro reveal">
+
+                    <p class="large-copy">
+                        I enjoy understanding how products work, finding where
+                        they can improve, and helping turn ideas into
+                        experiences people can trust.
+                    </p>
+
+                </div>
+
+
+                <div class="about-details reveal">
+
+                    <p>
+                        I am a software quality analyst with experience in
+                        functional, regression, exploratory, stress, and
+                        end-to-end testing. I also enjoy web and mobile
+                        development, which helps me look at products from both
+                        the technical and user perspective.
+                    </p>
+
+
+                    <p>
+                        My background covers software testing, application
+                        development, databases, APIs, Agile practices,
+                        software quality standards, and technical
+                        troubleshooting.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>Manual QA</span>
+                        <span>Functional Testing</span>
+                        <span>Regression Testing</span>
+                        <span>Exploratory Testing</span>
+                        <span>Stress Testing</span>
+                        <span>E2E Testing</span>
+                        <span>Web Testing</span>
+                        <span>Game Testing</span>
+                        <span>Mobile Testing</span>
+                        <span>User Acceptance Testing</span>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
+            <!-- =================================================
+                 SKILLS
+            ================================================== -->
+
+            <div class="skills-section reveal">
+
+                <div class="skills-heading">
+
+                    <p class="eyebrow">
+                        SKILLS &amp; EXPERIENCE
+                    </p>
+
+
+                    <h3>
+                        A technical toolkit built across QA,
+                        development, and application projects.
+                    </h3>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            01
+                        </div>
+
+                        <h4>
+                            Quality Assurance
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>Manual QA</span>
+                            <span>Functional Testing</span>
+                            <span>Regression Testing</span>
+                            <span>Exploratory Testing</span>
+                            <span>Stress Testing</span>
+                            <span>End-to-End Testing</span>
+                            <span>Web Testing</span>
+                            <span>Game Testing</span>
+                            <span>Mobile Testing</span>
+                            <span>User Acceptance Testing</span>
+                            <span>ISO 25010</span>
+                            <span>SDLC</span>
+                            <span>Agile Methodology</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            02
+                        </div>
+
+                        <h4>
+                            Development
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>Java</span>
+                            <span>C#</span>
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            03
+                        </div>
+
+                        <h4>
+                            Application Development
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>Android Studio</span>
+                            <span>Firebase</span>
+                            <span>Front-end Development</span>
+                            <span>Back-end Development</span>
+                            <span>Android Applications</span>
+                            <span>Web Applications</span>
+                            <span>System Architecture</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            04
+                        </div>
+
+                        <h4>
+                            Data &amp; APIs
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>SQLite</span>
+                            <span>SQLite Database Management</span>
+                            <span>API Integration</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            05
+                        </div>
+
+                        <h4>
+                            Tools &amp; Workflow
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>Git</span>
+                            <span>Microsoft Suite</span>
+                            <span>Task Organization</span>
+                            <span>Task Prioritization</span>
+                            <span>Agile / Scrum</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-category">
+
+                        <div class="skill-category-number">
+                            06
+                        </div>
+
+                        <h4>
+                            Technical Support
+                        </h4>
+
+                        <div class="skill-tags">
+
+                            <span>Computer Hardware Troubleshooting</span>
+                            <span>Computer Configuration</span>
+                            <span>Network Configuration</span>
+                            <span>System Troubleshooting</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJECTS
+        ====================================================== -->
+
+        <section
+            id="projects"
+            class="section content-section projects-section"
+        >
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    02 / SELECTED PROJECTS
+                </p>
+
+
+                <h2>
+                    From ideas to working experiences.
+                </h2>
+
+
+                <p class="section-description">
+                    A selection of web, mobile, AI, and QA-focused projects
+                    developed across different stages of my technical journey.
+                </p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+                <!-- =================================================
+                     PROJECT 01 — E-BABY
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <a
+                        href="https://iiiaaaannn.github.io/eBaby/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-preview-link"
+                        aria-label="Open E-Baby website"
+                    >
+
+                        <div class="project-image-wrap live-preview">
+
+                            <iframe
+                                src="https://iiiaaaannn.github.io/eBaby/"
+                                title="E-Baby live preview"
+                                loading="lazy"
+                            ></iframe>
+
+                            <div class="preview-overlay">
+                                <span>LIVE PREVIEW</span>
+                            </div>
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                WEB EXPERIENCE
+                            </span>
+
+                            <span class="project-year">
+                                2022
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            E-Baby
+                        </h3>
+
+
+                        <p>
+                            A web-based project created as an early application
+                            and interface development experience.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Web</span>
+                            <span>UI</span>
+                            <span>Development</span>
+                        </div>
+
+
+                        <a
+                            href="https://iiiaaaannn.github.io/eBaby/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Open project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 02 — CHOKKBI
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <a
+                        href="https://yunisord.github.io/CHOKKBI/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-preview-link"
+                        aria-label="Open Chokkbi website"
+                    >
+
+                        <div class="project-image-wrap live-preview">
+
+                            <iframe
+                                src="https://yunisord.github.io/CHOKKBI/"
+                                title="Chokkbi live preview"
+                                loading="lazy"
+                            ></iframe>
+
+                            <div class="preview-overlay">
+                                <span>LIVE PREVIEW</span>
+                            </div>
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                WEB PROJECT
+                            </span>
+
+                            <span class="project-year">
+                                2021
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Chokkbi
+                        </h3>
+
+
+                        <p>
+                            A website project focused on presenting a complete
+                            visual interface and structured web experience.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+
+                        <a
+                            href="https://yunisord.github.io/CHOKKBI/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Open project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 03 — PERSONAL WEBSITE
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <a
+                        href="https://yunisord.github.io/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-preview-link"
+                        aria-label="Open personal website"
+                    >
+
+                        <div class="project-image-wrap live-preview">
+
+                            <iframe
+                                src="https://yunisord.github.io/index.html"
+                                title="Personal website live preview"
+                                loading="lazy"
+                            ></iframe>
+
+                            <div class="preview-overlay">
+                                <span>LIVE PREVIEW</span>
+                            </div>
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                PERSONAL WEBSITE
+                            </span>
+
+                            <span class="project-year">
+                                2021
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Personal Website
+                        </h3>
+
+
+                        <p>
+                            A personal website project showcasing information,
+                            interests, work, and technical experience.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Portfolio</span>
+                            <span>Web</span>
+                            <span>Responsive</span>
+                        </div>
+
+
+                        <a
+                            href="https://yunisord.github.io/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Open project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 04 — HISTORIAYA
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <button
+                        type="button"
+                        class="project-preview-button"
+                        data-modal-target="historiayaModal"
+                        aria-label="View Historiaya project demo"
+                    >
+
+                        <div class="project-image-wrap video-preview">
+
+                            <video
+                                class="project-preview-video"
+                                muted
+                                loop
+                                autoplay
+                                playsinline
+                                preload="metadata"
+                                poster="Portfolio/css/images/historiaya.jpg"
+                            >
+                                <source
+                                    src="Portfolio/css/images/Historiaya.mp4"
+                                    type="video/mp4"
+                                >
+                            </video>
+
+                            <div class="preview-overlay">
+                                <span>VIDEO DEMO</span>
+                            </div>
+
+                            <span class="project-number">
+                                04
+                            </span>
+
+                            <span class="preview-play">
+                                ▶
+                            </span>
+
+                        </div>
+
+                    </button>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                MOBILE APPLICATION
+                            </span>
+
+                            <span class="project-year">
+                                2023–2024
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Historiaya
+                        </h3>
+
+
+                        <p>
+                            A mobile application project presented through a
+                            recorded application demo.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Mobile</span>
+                            <span>Application</span>
+                            <span>UI</span>
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="project-link project-modal-trigger"
+                            data-modal-target="historiayaModal"
+                        >
+                            View demo
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 05 — QR SCANNER
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <button
+                        type="button"
+                        class="project-preview-button"
+                        data-modal-target="qrScannerModal"
+                        aria-label="View QR Scanner project demo"
+                    >
+
+                        <div class="project-image-wrap video-preview">
+
+                            <video
+                                class="project-preview-video"
+                                muted
+                                loop
+                                autoplay
+                                playsinline
+                                preload="metadata"
+                                poster="Portfolio/css/images/YG.jpg"
+                            >
+                                <source
+                                    src="Portfolio/css/images/YG.mp4"
+                                    type="video/mp4"
+                                >
+                            </video>
+
+                            <div class="preview-overlay">
+                                <span>VIDEO DEMO</span>
+                            </div>
+
+                            <span class="project-number">
+                                05
+                            </span>
+
+                            <span class="preview-play">
+                                ▶
+                            </span>
+
+                        </div>
+
+                    </button>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                MOBILE APPLICATION
+                            </span>
+
+                            <span class="project-year">
+                                2024
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            QR Scanner
+                        </h3>
+
+
+                        <p>
+                            A mobile application project demonstrating
+                            QR-scanning functionality and application flow.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>Mobile</span>
+                            <span>QR</span>
+                            <span>Application</span>
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="project-link project-modal-trigger"
+                            data-modal-target="qrScannerModal"
+                        >
+                            View demo
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 06 — TASK MIND AI
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <a
+                        href="https://yunisord.github.io/Task-Mind-AI/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-preview-link"
+                        aria-label="Open Task Mind AI website"
+                    >
+
+                        <div class="project-image-wrap live-preview">
+
+                            <iframe
+                                src="https://yunisord.github.io/Task-Mind-AI/index.html"
+                                title="Task Mind AI live preview"
+                                loading="lazy"
+                            ></iframe>
+
+                            <div class="preview-overlay">
+                                <span>LIVE PREVIEW</span>
+                            </div>
+
+                            <span class="project-number">
+                                06
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                AI / WEB PROJECT
+                            </span>
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Task Mind AI
+                        </h3>
+
+
+                        <p>
+                            An AI-powered productivity website designed to
+                            automate repetitive tasks such as research,
+                            content creation, reporting, scheduling, email
+                            drafting, and administrative work.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Web</span>
+                            <span>Automation</span>
+                            <span>2026</span>
+                        </div>
+
+
+                        <a
+                            href="https://yunisord.github.io/Task-Mind-AI/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Open project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================================
+                     PROJECT 07 — QA TASK TRACKER
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+                    <a
+                        href="https://yunisord.github.io/QA-Task-Tracker/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-preview-link"
+                        aria-label="Open QA Task Tracker website"
+                    >
+
+                        <div class="project-image-wrap live-preview">
+
+                            <iframe
+                                src="https://yunisord.github.io/QA-Task-Tracker/"
+                                title="QA Task Tracker live preview"
+                                loading="lazy"
+                            ></iframe>
+
+                            <div class="preview-overlay">
+                                <span>LIVE PREVIEW</span>
+                            </div>
+
+                            <span class="project-number">
+                                07
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+
+                            <span class="project-type">
+                                QA / WEB APPLICATION
+                            </span>
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            QA Task Tracker
+                        </h3>
+
+
+                        <p>
+                            A QA-focused task and bug tracking dashboard for
+                            organizing testing work, members, games, and
+                            ticket information.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span>QA</span>
+                            <span>Task Tracking</span>
+                            <span>Bug Tracking</span>
+                        </div>
+
+
+                        <a
+                            href="https://yunisord.github.io/QA-Task-Tracker/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            Open project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             HISTORIAYA MODAL
+        ====================================================== -->
+
+        <div
+            class="project-modal"
+            id="historiayaModal"
+            aria-hidden="true"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="historiayaModalTitle"
+        >
+
+            <div class="modal-backdrop"></div>
+
+
+            <div class="modal-dialog">
+
+                <button
+                    type="button"
+                    class="modal-close"
+                    aria-label="Close Historiaya project"
+                >
+                    ×
+                </button>
+
+
+                <div class="modal-content">
+
+                    <p class="eyebrow">
+                        MOBILE APPLICATION • 2023–2024
+                    </p>
+
+
+                    <h2 id="historiayaModalTitle">
+                        Historiaya
+                    </h2>
+
+
+                    <div class="modal-video">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="Portfolio/css/images/historiaya.jpg"
+                        >
+                            <source
+                                src="Portfolio/css/images/Historiaya.mp4"
+                                type="video/mp4"
+                            >
+                        </video>
+
+                    </div>
+
+
+                    <p class="modal-description">
+                        Application demonstration for Historiaya.
+                    </p>
+
+                </div>
+
+            </div>
+
         </div>
-        
-            <!-- Contact Section -->
-            <section id="contact" class="content-section">
-                <h2>Contact</h2>
-                <p>If you're interested in working with me or learning more, feel free to contact me or download my resume below:</p>
-                <form id="contact-form">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your email">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Your message"></textarea>
-                    <button type="submit" class="submit-button">Send</button>
+
+
+        <!-- =====================================================
+             QR SCANNER MODAL
+        ====================================================== -->
+
+        <div
+            class="project-modal"
+            id="qrScannerModal"
+            aria-hidden="true"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="qrScannerModalTitle"
+        >
+
+            <div class="modal-backdrop"></div>
+
+
+            <div class="modal-dialog">
+
+                <button
+                    type="button"
+                    class="modal-close"
+                    aria-label="Close QR Scanner project"
+                >
+                    ×
+                </button>
+
+
+                <div class="modal-content">
+
+                    <p class="eyebrow">
+                        MOBILE APPLICATION • 2024
+                    </p>
+
+
+                    <h2 id="qrScannerModalTitle">
+                        QR Scanner
+                    </h2>
+
+
+                    <div class="modal-video">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="Portfolio/css/images/YG.jpg"
+                        >
+                            <source
+                                src="Portfolio/css/images/YG.mp4"
+                                type="video/mp4"
+                            >
+                        </video>
+
+                    </div>
+
+
+                    <p class="modal-description">
+                        Application demonstration for the QR Scanner project.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section
+            id="contact"
+            class="section content-section contact-section"
+        >
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    03 / CONTACT
+                </p>
+
+
+                <h2>
+                    Let's build something reliable.
+                </h2>
+
+
+                <p class="section-description">
+                    Whether you're looking for QA support, application
+                    development, or someone who enjoys improving digital
+                    experiences, feel free to get in touch.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-info reveal">
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            EMAIL
+                        </span>
+
+
+                        <a href="mailto:ordillanoeunice@gmail.com">
+                            ordillanoeunice@gmail.com
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            SOCIAL
+                        </span>
+
+
+                        <div
+                            class="contact-socials"
+                            aria-label="Social links"
+                        >
+
+                            <a
+                                href="https://www.linkedin.com/in/eunice-ordillano-4783582aa/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                                title="LinkedIn"
+                            >
+                                <i
+                                    class="fa-brands fa-linkedin-in"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+
+
+                            <a
+                                href="https://github.com/yunisord"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                                title="GitHub"
+                            >
+                                <i
+                                    class="fa-brands fa-github"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+
+
+                            <a
+                                href="https://web.facebook.com/unisimism"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Facebook"
+                                title="Facebook"
+                            >
+                                <i
+                                    class="fa-brands fa-facebook-f"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+
+
+                            <a
+                                href="https://www.instagram.com/unisimism"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Instagram"
+                                title="Instagram"
+                            >
+                                <i
+                                    class="fa-brands fa-instagram"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form
+                    class="contact-form reveal"
+                    id="contact-form"
+                >
+
+                    <div class="form-row">
+
+                        <div class="form-field">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-field">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What would you like to discuss?"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button button-primary"
+                    >
+                        Send message
+                        <span>↗</span>
+                    </button>
+
                 </form>
-            </section>
-                    
-        </main>
 
-        <footer>
-            <p>&copy; 2024 Eunice Ordillano. All rights reserved.</p>
-        </footer>
+            </div>
 
-        <!-- JavaScript -->
-        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script>
-    // Get modal elements
-    var historiayaModal = document.getElementById("historiaya-modal");
-    var qrScannerModal = document.getElementById("qr-scanner-modal");
+        </section>
 
-    // Get the buttons that open the modal
-    var openHistoriaya = document.getElementById("open-historiaya");
-    var openQrScanner = document.getElementById("open-qr-scanner");
+    </main>
 
-    // Get the <span> elements that close the modal
-    var closeHistoriaya = document.getElementById("close-historiaya");
-    var closeQrScanner = document.getElementById("close-qr-scanner");
 
-    // When the user clicks on the Historiaya project, open the modal
-    openHistoriaya.onclick = function() {
-        historiayaModal.style.display = "block";
-    }
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
 
-    // When the user clicks on the QR Scanner project, open the modal
-    openQrScanner.onclick = function() {
-        qrScannerModal.style.display = "block";
-    }
+    <footer class="site-footer">
 
-    // When the user clicks on <span> (x), close the modal
-    closeHistoriaya.onclick = function() {
-        historiayaModal.style.display = "none";
-    }
+        <div class="footer-inner">
 
-    closeQrScanner.onclick = function() {
-        qrScannerModal.style.display = "none";
-    }
+            <p>
+                © <span id="current-year"></span>
+                Eunice Ordillano. All rights reserved.
+            </p>
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target === historiayaModal) {
-            historiayaModal.style.display = "none";
-        } else if (event.target === qrScannerModal) {
-            qrScannerModal.style.display = "none";
-        }
-    }
-    // Initialize EmailJS service
- // Initialize EmailJS service with your user ID
- // Initialize EmailJS service
-// Initialize EmailJS service
-(function () {
-    emailjs.init("Your_User_ID"); // Replace with your EmailJS User ID
-})();
 
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent the default form submission behavior
+            <a href="#hero">
+                Back to top ↑
+            </a>
 
-    // Get form values
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
+        </div>
 
-    // Check for empty fields
-    if (!name || !email || !message) {
-        alert("Please fill in all fields.");
-        return;
-    }
+    </footer>
 
-    // Log the collected data for debugging
-    console.log("Form submitted with:", { name, email, message });
 
-    // Set template parameters
-    var templateParams = {
-        from_name: name,
-        from_email: email,
-        message: message,
-    };
+    <!-- =========================================================
+         TOAST
+    ========================================================== -->
 
-    // Send email using EmailJS
-    emailjs.send("service_ahtva4b", "template_uagbifo")
-        .then(function(response) {
-            console.log("Email successfully sent:", response.status, response.text);
-            alert("Email sent successfully!"); // Success message
-        })
-        .catch(function(error) {
-            console.error("Failed to send email:", error);
-            alert("Failed to send email. Please try again later."); // Error message
-        });
-});
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+        aria-hidden="true"
+    >
 
-        </script>
-        
-    </body>
-    </html>
+        <span id="toast-message">
+            Message sent successfully.
+        </span>
+
+
+        <button
+            type="button"
+            id="toast-close"
+            aria-label="Close notification"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
